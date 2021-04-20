@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Museum Database</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/x-icon" href="media/favicon.png">
+    </head>
+
+    <body>
+        <section class="dropdown">
+            <button id="select-btn" class="drop-btn" onclick="showDepartments()">Select Department</button>
+            <ul id="dropdown-list" class="dropdown-menu"></ul>
+        </section>
+        <ul id="items-list" class="items"></ul>
+    </body>
+
+    <script src="js/app.js"></script>
+    <script>
+        createDepartments();
+    </script>
+</html>
